@@ -22,7 +22,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="추가하기"/>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="0IQ-q2-ipG">
-                                <rect key="frame" x="16" y="88" width="361" height="676"/>
+                                <rect key="frame" x="16" y="109" width="361" height="634"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TodoTableViewCell" id="EMc-qA-Iil" userLabel="Todo TableView Cell" customClass="TodoTableVIewCell" customModule="todoList">
@@ -74,7 +74,7 @@
                             <constraint firstItem="02h-nb-6x0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="HZu-e8-b3n"/>
                             <constraint firstAttribute="trailing" secondItem="02h-nb-6x0" secondAttribute="trailing" constant="16" id="Msv-DK-Rge"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="02h-nb-6x0" secondAttribute="trailing" constant="16" id="fOj-vs-oDx"/>
-                            <constraint firstItem="0IQ-q2-ipG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="lf3-NL-p9A"/>
+                            <constraint firstItem="0IQ-q2-ipG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="lf3-NL-p9A"/>
                             <constraint firstItem="0IQ-q2-ipG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="p3S-pI-rXI"/>
                         </constraints>
                     </view>
